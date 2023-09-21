@@ -82,7 +82,7 @@ function resetCounter() {
   typingText.innerHTML = "";
   randomParagraphs();
   //reload page
-  location.reload();
+  // location.reload();
 }
 
 randomParagraphs();
