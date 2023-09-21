@@ -7,7 +7,7 @@ const typingText = document.querySelector(".typing-text p"),
 tryAgainBtn = document.querySelector("button");
 
 let timer,
-  maxTime = 10,
+  maxTime = 60,
   timeLeft = maxTime,
   charIndex = (mistakes = isTyping = 0);
 
